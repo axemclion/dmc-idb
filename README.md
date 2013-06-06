@@ -7,6 +7,6 @@ Tutorial Session - http://www.mobileconference.nl/tutorials#parashuram-get-off-m
 URLs
 =====
 
-* Session Data - http://www.mobileconference.nl/schedule.json&mobile=true&other=true
+* Session Data - http://www.mobileconference.nl/schedule.json&mobile=true&loadother=true
 * 
 
