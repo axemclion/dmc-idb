@@ -48,7 +48,14 @@ $(document).on('displayData', function() {
 
 function showSession(s) {
 	try {
-		return s.day + " " + s.time + " - " + s.title;
+        var speakers = '';
+        if (s.speakers.length > 0) {
+            for (var i = 0; i < s.speakers.length; i++) {
+                speakers = s.speakers[i].name + '<br>';
+            }
+        }
+
+		return s.day + " " + s.time + " - <strong>" + s.title + "</strong><br>" + speakers;
 	} catch (e) {
 		console.log(s);
 	}
