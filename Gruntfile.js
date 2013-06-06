@@ -22,6 +22,6 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-connect');
 	grunt.loadNpmTasks('grunt-contrib-watch');
 
-	grunt.registerTask('dev', ['jshint', 'connect', 'watch']);
+	grunt.registerTask('dev', ['connect', 'watch']);
 	grunt.registerTask('default', 'dev');
 }

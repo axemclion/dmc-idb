@@ -1,50 +1,831 @@
-[
-	{
-		"slug" : "G107",
-		"title": "jQuery Mobile",
-		"speaker": "Jasper de Groot",
-		"time": {
-			"start": 1370503800000,
-			"end": 1370515500000
+{
+	"sessions": {
+		"friday": {
+			"09:40": {
+				"default": {
+					"o_key": "friday-keynote-ade",
+					"day": "friday",
+					"time": "09:40",
+					"time_end": "10:30",
+					"title": "Forum: A Web Of Identity",
+					"short_title": null,
+					"description": "<p>\n\tWe&#39;re moving from a web of pages to a web of people and devices. Those people and devices have identities associated with them. In this talk I&#39;m going to show how identity is currently propagated from devices to browsers to sites and apps. I&#39;ll also talk about the new kinds of devices that are turning up on the market, how they&#39;re using the web, how they&#39;re changing the web and what we can do about it.<\/p>\n",
+					"talk_type": "keynote",
+					"talk_level": null,
+					"talk_orientation": null,
+					"track": {
+						"name": null,
+						"room": null,
+						"sort": null
+					},
+					"speakers": [{
+							"name": "Ade Oshineye",
+							"bio": "<p>\n\tAde is a Senior Developer Advocate in Google&#39;s London office and works on the Google+ project. Over the last decade he&#39;s worked on trading systems for a variety of investment banks as well as on Google&#39;s advertising and mobile search systems. He&#39;s also the co-author of &quot;Apprenticeship Patterns&quot;: a book that teaches you how to learn to be a great programmer. He&#39;s particularly interested in Developer Experience, distributed systems and the future of online news.<\/p>\n",
+							"photo": {
+								"filename": "ade_oshineye.jpg"
+							},
+							"website": null
+						}
+					],
+					"soldout": false
+				}
+			},
+			"10:45": {
+				"track1": {
+					"o_key": "parashuram-get-off-my-internets-building-offline-web-applications",
+					"day": "friday",
+					"time": "10:45",
+					"time_end": "11:30",
+					"title": "E103: Get Off my Internets - building offline web applications ",
+					"short_title": null,
+					"description": "<p>\n\tThe use of mobile devices to access web applications is greatly increasing and web developers are spending more time ensuring that their application looks better on this additional form factor. However, it is not sufficient to make the websites look good, when their functionality is compromised due to flaky internet connectivity. Offline support for applications enhances the experience significantly but developers are confused by the multiple options (IndexedDB, WebSql, localStorage etc.) and browser support matrix.<\/p>\n<p>\n\tThis talk discusses the various options, and tries to help developers with libraries and code to make their webapp get off the internet. It covers libraries like Jquery IndexedDB, PouchDB, db.js and the IndexedDB shim as ways to use offline support for almost all browsers. To the folks who are still not convinced, this talk will be based on star wars, so come in to hear the great saga from a world far far away .... :)<\/p>\n",
+					"talk_type": "regular",
+					"talk_level": "intermediate",
+					"talk_orientation": "indepth",
+					"track": {
+						"name": "track1",
+						"room": "",
+						"sort": 1
+					},
+					"speakers": [{
+							"name": "Parashuram Narasimhan",
+							"bio": "<p>\n\tParashuram is a programmer and likes to spend his time writing code. He has worked on a number of projects and also blogs about the interesting things he comes across. He writes a lot of Javascript with HTML and CSS in addition to Java and Python for the backend.&nbsp;<\/p>\n",
+							"photo": {
+								"filename": "parashuram.jpg"
+							},
+							"website": "http:\/\/nparashuram.com"
+						}
+					],
+					"soldout": false
+				},
+				"track2": {
+					"o_key": "richard-responsive-css-systems",
+					"day": "friday",
+					"time": "10:45",
+					"time_end": "11:30",
+					"title": "E108: Responsive CSS systems",
+					"short_title": null,
+					"description": "<p>\n\tResponsive design is key to developing mobile web applications and modern websites. Websites should look and feel good on any device.&nbsp;<\/p>\n<p>\n\tThis talk provides insight into creating flexible and maintainable CSS systems that will scale and layout web pages to fit any device size. We&#39;ll also look into browser mechanics to allow us to create smooth animations on mobile devices.&nbsp;<\/p>\n",
+					"talk_type": "regular",
+					"talk_level": "beginner",
+					"talk_orientation": "overview",
+					"track": {
+						"name": "track2",
+						"room": null,
+						"sort": 2
+					},
+					"speakers": [{
+							"name": "Richard van Willegen",
+							"bio": "<p>\n\tRichard van Willegen is front-end developer at Oberon Interactive with over 10 years of experience working with the web. While he started as a back-end developer he soon discovered his passion for the user experience and creating beautiful front-end code. Richard is currently obsessed with all things responsive web ranging from design to browser performance optimization.<\/p>\n",
+							"photo": {
+								"filename": "richard_van_willegen.png"
+							},
+							"website": null
+						}
+					],
+					"soldout": false
+				}
+			},
+			"11:45": {
+				"track2": {
+					"o_key": "paul-device-advice",
+					"day": "friday",
+					"time": "11:45",
+					"time_end": "12:30",
+					"title": "E108: Device Advice",
+					"short_title": null,
+					"description": "<p>\n\tKnowing what CSS properties or JavaScript APIs work on which desktop browser is already as hard as it is, but knowing from the top of your head how everything behaves on mobile phones or gaming devices is nearly impossible.So how are you going to handle that? You need to test, a lot.Testing for devices can be hard, time-consuming and boring. In my presentation I&#39;m going to show a few ways how testing can be better and faster, and especially fun!<\/p>\n<p>\n\tThere are a 1001 devices and your CSS must be tested on all of them. Boring? Time-consuming? Let me help you with that.<\/p>\n",
+					"talk_type": "regular",
+					"talk_level": "beginner",
+					"talk_orientation": "overview",
+					"track": {
+						"name": "track2",
+						"room": null,
+						"sort": 2
+					},
+					"speakers": [{
+							"name": "Paul Verbeek",
+							"bio": "<p>\n\tPaul Verbeek is a front-end webdeveloper at Netvlies. Here he&#39;s established the first Open Device Lab of the Netherlands. He is a volunteer at Fronteers where he helps to organise webdevelopment meet-ups. He&#39;s passionate about creating beautiful and functional websites that work on all devices, mobile and not-so-mobile.<\/p>\n",
+							"photo": {
+								"filename": "paul_verbeek.jpg"
+							},
+							"website": "http:\/\/webinthehat.com"
+						}
+					],
+					"soldout": false
+				},
+				"track1": {
+					"o_key": "martin-native-javascript-apps-with-phonegap",
+					"day": "friday",
+					"time": "11:45",
+					"time_end": "12:30",
+					"title": "E103: Native Javascript apps with PhoneGap",
+					"short_title": null,
+					"description": "<p>\n\tWriting applications for phones has been a daunting task since every platform uses it&#39;s own language and API&#39;s. PhoneGap will solve this problem for you by utilizing the browser capabilities. In this session we will see how we can turn a web based application into a native app. We will also look at posibilites to integrate native functionality, like the camera or accelerometer, in our application. The final part of the presentation is about deployment of these applications. Adobe offers a cloud based service called PhoneGap Build which easily builds your application for all platforms.<\/p>\n",
+					"talk_type": "regular",
+					"talk_level": "beginner",
+					"talk_orientation": "overview",
+					"track": {
+						"name": "track1",
+						"room": "",
+						"sort": 1
+					},
+					"speakers": [{
+							"name": "Martin de Keijzer",
+							"bio": "<p>\n\tMartin is a software engineer and community manager at Ibuildings in the Netherlands. He started programming with PHP and picked up Javascript along the way, he has become very knowledgeable with both in the past decade.&nbsp;<\/p>\n<div>\n\tHe is also doing a lot of mobile development and quickly learned that mastering Javascript was the key to device agnostic success. These days many of his projects using open web technologies are already available using app stores and the web as a distribution channel.<\/div>\n<div>\n\tHe also has good knowledge about various tools and frameworks like Zend Framework, Wordpress, Drupal, iOS SDK, Android SDK, Sencha Touch and Phonegap.<\/div>\n<div>\n\t&nbsp;<\/div>\n<div>\n\tAs a community manager he is responsible for the Dutch Mobile Conference and Dutch PHP Conference in the Amsterdam RAI and lead developer for the apps related to the event. Next to that he is a board member of the PHPBenelux usergroup, organizing their annual conference and bi-monthly dutch user group meetings.<\/div>\n<div>\n\tIn his spare time he makes contributions to several open source projects.<\/div>\n",
+							"photo": {
+								"filename": "martin_de_keijzer.jpg"
+							},
+							"website": "http:\/\/www.ibuildings.nl"
+						}
+					],
+					"soldout": false
+				}
+			},
+			"13:30": {
+				"track2": {
+					"o_key": "sidney-put-some-backbone.js-in-your-apps",
+					"day": "friday",
+					"time": "13:30",
+					"time_end": "14:15",
+					"title": "E108: Put some Backbone.js in your Apps",
+					"short_title": null,
+					"description": "<p>\n\tWhen developing HTML5 application, your code is bound to get more complex over time. Employing design patterns like MVC are important for separating concerns and creating more modular and reusable code. Backbone.js is one of the more popular JavaScript frameworks to help you do this. Unfortunately, like most open source, the documentation is a work in progress. Don&#39;t worry, I&#39;ll walk you through a series of examples that build on each other as I show how the moving parts work together. As a bonus, we&#39;ll add the StackMob JavaScript SDK to persist you data in the cloud in minutes.<\/p>\n",
+					"talk_type": "regular",
+					"talk_level": "beginner",
+					"talk_orientation": "overview",
+					"track": {
+						"name": "track2",
+						"room": null,
+						"sort": 2
+					},
+					"speakers": [{
+							"name": "Sidney Maestre",
+							"bio": "<p>\n\tSidney Maestre is the Platform Evangelist for StackMob, a leading provider of backend services for mobile developers. He spent the last few years building mobile apps and sharing his knowledge with others. These efforts included speaking at Adobe MAX, 360iDev, SenchaCon, HTML5DevConf, Silicon Valley Code Camp, creating two courses, jQuery Mobile for Beginners and Learn Backbone.js + StackMob, for the uDemy.com platform and organizing the Bay Area Mobile meetup.<\/p>\n",
+							"photo": {
+								"filename": "sidney_maestre.jpg"
+							},
+							"website": "http:\/\/www.linkedin.com\/profile\/view?id=17092383"
+						}
+					],
+					"soldout": false
+				},
+				"track1": {
+					"o_key": "sergi-developing-for-firefox-os",
+					"day": "friday",
+					"time": "13:30",
+					"time_end": "14:15",
+					"title": "E103: Developing for Firefox OS",
+					"short_title": null,
+					"description": "<p>\n\tWith the developer phones with Firefox OS being available, now is the time to enter this new emerging ecosystem. During this talk Sergi will show you what Firefox OS has to offer for developers and how you can turn your web application into an app ready for use on this new platform!<\/p>\n",
+					"talk_type": "regular",
+					"talk_level": "beginner",
+					"talk_orientation": "overview",
+					"track": {
+						"name": "track1",
+						"room": "",
+						"sort": 1
+					},
+					"speakers": [{
+							"name": "Sergi Mansilla",
+							"bio": "<p>\n\tSergi works at Telenor Comoyo on Firefox OS and regularly gives talks about it. Before that, he worked at Cloud9 IDE making an online IDE entirely in Node.js and JavaScript, and before that he lead the team that implemented the webkit framework that run the UIs in modern TomTom devices. He lives in Amsterdam, where&nbsp;he organizes the successful AmsterdamJS meetup and enjoys the wonderful Dutch weather.<\/p>\n",
+							"photo": {
+								"filename": "sergi_mansilla.jpeg"
+							},
+							"website": null
+						}
+					],
+					"soldout": false
+				}
+			},
+			"14:30": {
+				"track1": {
+					"o_key": "judy-interactive-3d-for-mobile-web",
+					"day": "friday",
+					"time": "14:30",
+					"time_end": "15:15",
+					"title": "E103: Interactive 3D For Mobile Web",
+					"short_title": null,
+					"description": "<p>\n\tThis talk will introduce Three.js, a flexible and easy-to-use graphics library for rendering 3D. Three.js on mobile is an emerging technology, and is surprisingly responsive using CSS3D. I will present our MobileGraffiti app as a case study, but also teach core 3D concepts. Attendees will be inspired and also leave with a clear idea of how they would build their mobile web visualizations using 3D graphics and touch controls.<\/p>\n<p>\n\tThe MobileGraffiti app was created at AngelHack in 2012, with the goal of turning an iPhone into a paintbrush. 3D shapes sketched in the air by holding the iPhone were rendered on a Web page. Using new developments in Three.js, this app can now work on mobile web. See the original project video here: http:\/\/www.youtube.com\/watch?v=DUG_W4Z0i1s<\/p>\n",
+					"talk_type": "regular",
+					"talk_level": "beginner",
+					"talk_orientation": "overview",
+					"track": {
+						"name": "track1",
+						"room": "",
+						"sort": 1
+					},
+					"speakers": [{
+							"name": "Judy Tuan",
+							"bio": "<p>\n\tJudy plays Starcraft II and speaks in Na&#39;vi, and is a serial hackathon winner who specializes in combining new technologies in innovative ways. On non-weekends, she develops web and mobile applications at Blazing Cloud. She loves rainbows, dancing, and the San Francisco tech community, contributing by leading the Women Who Code SF meetup group and routinely volunteering at RailsBridge workshops. @judytuna<\/p>\n",
+							"photo": {
+								"filename": "judy_tuan.jpg"
+							},
+							"website": "http:\/\/blazingcloud.net"
+						}
+					],
+					"soldout": false
+				},
+				"track2": {
+					"o_key": "eric-building-mobile-applications-with-the-dojo-toolkit",
+					"day": "friday",
+					"time": "14:30",
+					"time_end": "15:15",
+					"title": "E108: Building Mobile Applications with the Dojo Toolkit",
+					"short_title": null,
+					"description": "<p>\n\tThis session will introduce the Dojo Toolkit and in particular Dojo Mobile. The presenter will then demonstrate how to create, step by step, a simple mobile application with Dojo Mobile and how to deploy it either as a Web or Hybrid application on mobile devices. Finally we will look into the future of mobile development with Dojo.<\/p>\n",
+					"talk_type": "regular",
+					"talk_level": "intermediate",
+					"talk_orientation": "overview",
+					"track": {
+						"name": "track2",
+						"room": null,
+						"sort": 2
+					},
+					"speakers": [{
+							"name": "Eric Durocher",
+							"bio": "<p>\n\tEric Durocher is a senior software developer for IBM, in France. He has been a member of the ILOG Visualization team since 1997 and is currently the technical leader of the Dojo Mobile development team. Eric has previously worked as developer and architect on most IBM ILOG visualization products: Views, JViews, .NET visualization, Elixir, and IBM Dojo Diagrammer.&nbsp;<\/p>\n",
+							"photo": {
+								"filename": "eric_durocher.jpg"
+							},
+							"website": null
+						}
+					],
+					"soldout": false
+				}
+			},
+			"15:45": {
+				"track1": {
+					"o_key": "jon-arne-give-responsive-design-a-mobile-performance-boost",
+					"day": "friday",
+					"time": "15:45",
+					"time_end": "16:30",
+					"title": "E103: Give Responsive Design a Mobile Performance Boost",
+					"short_title": null,
+					"description": "<p>\n\tResponsive design is a giant leap in the right direction for web on mobile devices. However, RWD is just a small, part of the big picture. What we really want is an adaptive design that works across the full value chain, not only in the browser. There are a vast number of frameworks and tools on the webs for implementing RWD. Most of these provide a great starting point for mobile ventures. However, there ar not so many tools available for doing adaptive design. Especially tools that are easy to use and provide a relatively small footprint for front end developers. This talk will explore possibilities you get when you combine the best practices from the client side, with best practices from the server side. Sometimes this technique is called RESS, or Adaptive Design. The talk will contain codeing, code samples and best practices based on popular frameworks and tools for Adaptive Design that combines client side and server side techniques. Results, effects and gains in terms of performance will also be documented and exemplified. The audience will gain insights into how their next project can perform even better in mobile devices and smart ways to reduce data traffic, increase speed and be more future friendly by utilizing the server for heavy-lifting.<\/p>\n",
+					"talk_type": "regular",
+					"talk_level": "beginner",
+					"talk_orientation": "indepth",
+					"track": {
+						"name": "track1",
+						"room": "",
+						"sort": 1
+					},
+					"speakers": [{
+							"name": "Jon Arne Saeteraas",
+							"bio": "<p>\n\tJohn Arne is a mobile guy. He has been an active member and thought leader in the global mobile community since the late nineties.John Arne is a developer by trade, and truly believe that the key to success is a happy end user, and that innovative use of technology will help achieve that truly optimal user experience. Coding now is just done for recreation as he is now heading the Innovation and Products team at Mobiletech, which he also invented and co-founded.<\/p>\n",
+							"photo": {
+								"filename": "jon_arne_seteras.png"
+							},
+							"website": "http:\/\/mpulp.mobi"
+						}
+					],
+					"soldout": false
+				},
+				"track2": {
+					"o_key": "joris-the-right-framework-for-your-mobile-web-app",
+					"day": "friday",
+					"time": "15:45",
+					"time_end": "16:30",
+					"title": "E108: The right framework for your mobile web app",
+					"short_title": null,
+					"description": "<p>\n\tDevelopers can choose between several frameworks for building mobile web apps. Popular choices include jQuery Mobile and Sencha Touch. Some developers choose not to use aframework, but to build responsive web applications with HTML5, CSS3 and vanilla JavaScript.<\/p>\n<p class=\"p1\">\n\tIn this session, the advantages and disadvantages of these approaches are discussed. How do you select the right framework for your application? Which criteria can you use to decide on the right approach? The cases are illustrated with example implementations of the ToDoMVC application (<a href=\"http:\/\/todomvc.com\/\"><span class=\"s1\">http:\/\/todomvc.com<\/span><\/a>) in Sencha Touch, jQuery Mobile and plain HTML5, CSS3, and JavaScript.<\/p>\n",
+					"talk_type": "regular",
+					"talk_level": "beginner",
+					"talk_orientation": "overview",
+					"track": {
+						"name": "track2",
+						"room": null,
+						"sort": 2
+					},
+					"speakers": [{
+							"name": "Joris Graaumans",
+							"bio": "<p>\n\tJoris Graaumans is senior lecturer at the Fontys University of Applied Sciences. He teaches web development techniques, interaction design and usability testing. Prior to this, he was IT consultant at Atos and did a PhD in Information Sciences at the University of Utrecht. Heloves to run, cook a decent meal and build great sounding tube guitar amplifiers.<\/p>\n",
+							"photo": {
+								"filename": "joris_graaumans_1.jpg"
+							},
+							"website": "http:\/\/fontys.nl\/"
+						}
+					],
+					"soldout": false
+				}
+			},
+			"16:45": {
+				"track2": {
+					"o_key": "jasper-jquery-mobile-and-responsive-web-development",
+					"day": "friday",
+					"time": "16:45",
+					"time_end": "17:30",
+					"title": "E108: jQuery Mobile and Responsive Web Development",
+					"short_title": null,
+					"description": "<p>\n\tStarting with an overview of what jQuery Mobile is and what the advantage is of using a framework in general and jQuery Mobile in particular. Followed by explaining that you don&#39;t have to choose between a responsive website or a jQuery Mobile site next to a desktop version. I will show real world examples that demonstrate how you can develop responsive websites with jQuery Mobile.&nbsp;<\/p>\n",
+					"talk_type": "regular",
+					"talk_level": "beginner",
+					"talk_orientation": "overview",
+					"track": {
+						"name": "track2",
+						"room": null,
+						"sort": 2
+					},
+					"speakers": [{
+							"name": "Jasper de Groot",
+							"bio": "<p>\n\tI am a 36 year old self-employed web developer from Amsterdam and member of the jQuery Mobile development team. I work almost fulltime on the jQuery Mobile project.My Linkedin profile: http:\/\/www.linkedin.com\/in\/jasperdegroot&nbsp;<\/p>\n",
+							"photo": {
+								"filename": "jasper_de_groot.jpg"
+							},
+							"website": "https:\/\/github.com\/uGoMobi"
+						}
+					],
+					"soldout": false
+				},
+				"track1": {
+					"o_key": "jason-titanium-appcelerator-talk",
+					"day": "friday",
+					"time": "16:45",
+					"time_end": "17:30",
+					"title": "E103: Titanium platform",
+					"short_title": null,
+					"description": "<p>\n\t-100% native apps using JavaScript.<br \/>\n\tThis talk will give you a solid introduction to Titanium, how it differs from other platforms out there and how to use it to build cross-platform, native applications, from one codebase. We&#39;ll cover core concepts, how Titanium works under the hood and best-practice, tips and advice for writing well-optimized, reusable code with CommonJS.<\/p>\n<p>\n\tSuitable for any level of developer with a basic familiarity of JavaScript.<\/p>\n<p>\n\tTitanium is a unique platform that allows you to use your JavaScript skills to built 100% native apps. No hybrid apps known for their sluggish HTML interfaces, but actual native UI&rsquo;s on iOS and Android. BlackBerry 10, Windows 8 and Tizen follow this summer.<\/p>\n",
+					"talk_type": "regular",
+					"talk_level": "beginner",
+					"talk_orientation": "overview",
+					"track": {
+						"name": "track1",
+						"room": "",
+						"sort": 1
+					},
+					"speakers": [{
+							"name": "Jason Kneen",
+							"bio": "<p>\n\tJason Kneen has been coding since&nbsp;the&nbsp;early 80s when he&nbsp;first&nbsp;got his hands on a Commodore VIC-20 and wrote his first &quot;Hello World&quot; program. In the 1990s he was a&nbsp;successful&nbsp;author of best-selling Psion Series 5 applications like&nbsp;&quot;Backlite+&quot; and &quot;Extrabars&quot; and also built e-commerce platforms on WAP and Windows Mobile.<\/p>\n<p>\n\tThese days he develops web apps with ASP \/ .NET and native mobile apps with Appcelerator&#39;s Titanium platform.<br \/>\n\tWhen he&#39;s not getting his hands dirty coding, he works with companies around the world as a development lead,&nbsp;architect&nbsp;and mentor -&nbsp;supporting and assisting their own development teams using Titanium. He&#39;s an advocate and&nbsp;supporter&nbsp;of the Titanium Platform, a TCAD Certified Developer, and a community &quot;Titan&quot;.&nbsp;<\/p>\n<p>\n\tJason is married, has three amazing children, and lives in the&nbsp;beautiful&nbsp;UK&nbsp;Countryside.&nbsp;He tweets as @jasonkneen and @bouncingfish.<\/p>\n",
+							"photo": {
+								"filename": "jason_kneen2.jpg"
+							},
+							"website": "http:\/\/www.bouncingfish.com"
+						}
+					],
+					"soldout": false
+				}
+			}
 		},
-		"desc": "",
-		"tags": "tutorial",
-		"url" : "http://www.mobileconference.nl/tutorials#jasper-jquery-mobile"
-	},
-	{
-		"slug" : "G102",
-		"title": "Developing for Firefox OS ",
-		"speaker": "Jasper de Groot",
-		"time": {
-			"start": 1370503800000,
-			"end": 1370515500000
+		"saturday": {
+			"09:40": {
+				"default": {
+					"o_key": "saturday-keynote-eamon",
+					"day": "saturday",
+					"time": "09:40",
+					"time_end": "10:30",
+					"title": "Forum: Growth Hacking for Humans",
+					"short_title": null,
+					"description": "<p>\n\tI am not an expert. I am a noob. I will be sharing the lessons I&#39;ve learned from a career of being in a constant state of noobage. From learning PHP in 1998 to angel investing in 2013. Regardless of where you are in your career, there will be something for everyone in this talk.&nbsp;<\/p>\n",
+					"talk_type": "keynote",
+					"talk_level": null,
+					"talk_orientation": null,
+					"track": {
+						"name": null,
+						"room": null,
+						"sort": null
+					},
+					"speakers": [{
+							"name": "Eamon Leonard",
+							"bio": "<p>\n\tEamon Leonard is an advisor to start-ups, an angel investor, a tech community organiser and has an interest in cloud platforms and developer tools. Based in Ireland, he is VP&nbsp;<a href=\"https:\/\/dl.dropboxusercontent.com\/u\/10164\/ey\/developers-ballmer.jpeg\" title=\"Developers Developers Developers\">Developers&sup3;<\/a>&nbsp;at Engine Yard, having joined the company through their acquisition of Orchestra, a PHP Platform-as-a-Service he co-founded in 2011.<\/p>\n",
+							"photo": {
+								"filename": "eamon_leonard.jpg"
+							},
+							"website": "http:\/\/eamo.net\/"
+						}
+					],
+					"soldout": false
+				}
+			},
+			"10:45": {
+				"track2": {
+					"o_key": "daniel-a-highly-scalable-cross-platform-mobile-app-development-strategy",
+					"day": "saturday",
+					"time": "10:45",
+					"time_end": "11:30",
+					"title": "E108: A highly scalable cross-platform mobile app development strategy",
+					"short_title": null,
+					"description": "<p>\n\tWhen it comes to deciding what technologies to use in creating a cross-platform mobile app, there&#39;s plenty to choose from. Each has their own benefits, but to be able to target all the major platforms with ease, such as iOS, Android, BlackBerry and Windows Phone requires a highly capable application framework. This is where Sencha can help.<\/p>\n<p>\n\tSencha has been building frameworks and tools built around HTML5 for several years. In this session you will get a sense for how the Sencha Touch framework, with its MVC architecture, can be easily used for building powerful cross-platform apps, and how Sencha Architect can aid in the overall design and development process.<\/p>\n",
+					"talk_type": "regular",
+					"talk_level": "beginner",
+					"talk_orientation": "overview",
+					"track": {
+						"name": "track2",
+						"room": null,
+						"sort": 2
+					},
+					"speakers": [{
+							"name": "Daniel Gallo",
+							"bio": "<p>\n\tDan has over 8 years experience developing innovative web-based applications using a variety of technologies, and specialises in ASP.NET C# and JavaScript. He established the South-West England Sencha Meetup Group in 2011, to help bring the developer community together in the region.In early 2012, Dan joined Sencha as one of their Sales Engineers in Europe, where he provides pre-sales technical assistance regarding the Sencha product line.<\/p>\n",
+							"photo": {
+								"filename": "daniel_gallo.jpg"
+							},
+							"website": "http:\/\/www.sencha.com"
+						}
+					],
+					"soldout": false
+				},
+				"track1": {
+					"o_key": "christoph-lycheejs",
+					"day": "saturday",
+					"time": "10:45",
+					"time_end": "11:30",
+					"title": "E103: LycheeJS",
+					"short_title": null,
+					"description": "<p>\n\t- creating high performance games for the web and native platforms with canvas, WebGL and native OpenGL.<br \/>\n\t<br \/>\n\tLycheeJS is a cross-platform game library that is independent of the environment. It offers various solutions for developers, so that they don&#39;t have to worry about how to implement a feature cross-platform. It&#39;s underlying architecture allows being used in any theoretical JavaScript environment. lycheeJS is independent of the rendering methods used and independent of platform-specific implementations (or APIs).<\/p>\n<p>\n\tIt can be used for various applications, such as the creation of web games, a flying hexacopter drone, a genetic AI, a NodeJS backend or even &quot;just&quot; a simple web app. The lycheeJS-adk allows cross-compilation of the custom V8 based runtime that has OpenGL bindings and platform-specific APIs (like writing files, networking etc.). The V8GL runtime is able to be cross-compiled to Android and Linux. In future it will be able to run on Windows, PS3 (prototype already in place), XBox360 and Mac OSX - and theoretically every other C or C++ supporting environment.<\/p>\n",
+					"talk_type": "regular",
+					"talk_level": "expert",
+					"talk_orientation": "indepth",
+					"track": {
+						"name": "track1",
+						"room": "",
+						"sort": 1
+					},
+					"speakers": [{
+							"name": "Christoph Martens",
+							"bio": "<p>\n\tChristoph Martens is a developer and researcher in different areas. He tries to push technologies further and explore their limits and his focus is primary on bleeding edge technologies like JavaScript, C++ and V8.<\/p>\n<p>\n\tIn 2010 &ndash; 2012 he worked for Zynga, where he was developing an HTML5 game engine for millions of users. He used the gained experience to found his own environment-independent game engine lycheeJS. He also likes hacking flying drones, firmwares and all other pieces of low-level hardware while still loving to develop on his V8GL runtime.<\/p>\n",
+							"photo": {
+								"filename": "christoph_martens.jpg"
+							},
+							"website": "http:\/\/martens.ms\/lycheeJS"
+						}
+					],
+					"soldout": false
+				}
+			},
+			"11:45": {
+				"track2": {
+					"o_key": "brian-building-mobile-apps-with-angularjs-and-phonegap",
+					"day": "saturday",
+					"time": "11:45",
+					"time_end": "12:30",
+					"title": "E108: Building Mobile Apps with AngularJS and PhoneGap",
+					"short_title": null,
+					"description": "<p>\n\tAngularJS is a powerful client-side JavaScript library for building web apps. Many developers are finding that AngularJS greatly simplifies and improves their development process. Using PhoneGap together with Angular, you can have this same power and simplicity in a mobile app. Better yet, you can write code that&#39;s portable across desktops, phones, and tablets.<\/p>\n<p>\n\tThis talk will cover the basics of working with AngularJS, as well as some special considerations when working with PhoneGap. The talk will also cover how to debug, test, and benchmark AngularJS apps with Phonegap, which are extremely important for building robust apps.<\/p>\n",
+					"talk_type": "regular",
+					"talk_level": "intermediate",
+					"talk_orientation": "indepth",
+					"track": {
+						"name": "track2",
+						"room": null,
+						"sort": 2
+					},
+					"speakers": [{
+							"name": "Brian Ford",
+							"bio": "<p>\n\tBrian Ford has been programming for as long as he can remember and involved in web technology for nearly 8 years. He is not only a member of the AngularJS core team, but also blogs extensively, and wrote the AngularJS Batarang, a debugging tool for AngularJS apps. Brian is currently finishing up his degree at the University of Michigan, after which he will continue working on the Angular team at Google.<\/p>\n",
+							"photo": {
+								"filename": "brian_ford.png"
+							},
+							"website": "http:\/\/briantford.com"
+						}
+					],
+					"soldout": false
+				},
+				"track1": {
+					"o_key": "fokke-titanium-alloy",
+					"day": "saturday",
+					"time": "11:45",
+					"time_end": "12:30",
+					"title": "E103: Titanium Alloy MVC",
+					"short_title": null,
+					"description": "<p>\n\t-Rapid native app development.<br \/>\n\tThis talk will start off with a one-slide-overview of the Titanium platform for those who missed Jason Keen&rsquo;s talk on Friday. But then we&rsquo;ll clear the stage for Alloy: Titanium&rsquo;s new MVC framework. If JavaScript is not your daily cup of tea, then this XML\/HTML and CSS inspired framework makes developing cross-platform, native applications even easier for you. But also for the Titanium and JavaScript nerds out their Alloy brings some kick-ass features like widgets, code optimization and much more we&rsquo;ll cover in this talk.<\/p>\n<p>\n\tSuitable for any level of developer with basic familiarity of JavaScript, XML\/HTML and CSS. Knowledge of the Titanium platform is not required, but if you do and want to get started using Alloy this talk is for you too.<\/p>\n<p>\n\tTitanium is a unique platform that allows you to use your JavaScript skills to built 100% native apps. No hybrid apps known for their sluggish HTML interfaces, but actual native UI&rsquo;s on iOS and Android. BlackBerry 10, Windows 8 and Tizen follow this summer.<\/p>\n",
+					"talk_type": "regular",
+					"talk_level": "beginner",
+					"talk_orientation": "overview",
+					"track": {
+						"name": "track1",
+						"room": "",
+						"sort": 1
+					},
+					"speakers": [{
+							"name": "Fokke Zandbergen",
+							"bio": "<p>\n\tFokke Zandbergen has been online since 1996 and began the 30th Dutch blog in 2000. In 2001 he successfully created and sold Write2Me. Serving over 100.000 guestbooks, it was one of the first to offer a mobile (WAP) version.<\/p>\n<p>\n\tAfter 5 years of traveling and living in Hong Kong for 6 months, Fokke finally settled down. He has worked as a consultant and developer at a small webdesign agency in The Netherlands before going freelance again this year.<\/p>\n<p>\n\tAs an &quot;app imagineer&quot; Fokke loves both architecting and developing native mobile apps using Appcelerator&#39;s Titanium platform. He is a TCAD certified Titanium developer and promotes the platform as a meet up co-organizer and community &quot;Titan&quot;.<\/p>\n",
+							"photo": {
+								"filename": "fokke_zandbergen1.jpg"
+							},
+							"website": "http:\/\/fokkezb.nl"
+						}
+					],
+					"soldout": false
+				}
+			},
+			"13:30": {
+				"track1": {
+					"o_key": "erwin-best-practices-for-securing-your-mobile-app",
+					"day": "saturday",
+					"time": "13:30",
+					"time_end": "14:15",
+					"title": "E103: Best practices for securing your mobile app",
+					"short_title": null,
+					"description": "<p>\n\tMobile apps are the entry point to your web applications and web services. But sometimes the developer implements security in the mobile app that can easily be bypassed by a malicious attacker, allowing the attacker to exploit your web applications and steal confidential information. In this presentation I will show you how easily it is to attach a mobile application, intercept the communication and exploit the trust model of mobile apps.<\/p>\n",
+					"talk_type": "regular",
+					"talk_level": "intermediate",
+					"talk_orientation": "overview",
+					"track": {
+						"name": "track1",
+						"room": "",
+						"sort": 1
+					},
+					"speakers": [{
+							"name": "Erwin Geirnaert",
+							"bio": "<p>\n\tErwin Geirnaert is a well-known application security expert and co-founder of ZIONSECURITY, a Belgian security company specialized in mobile and web application security. Erwin has hands-on experience with security testing and securing mobile banking applications but also mobile games and the back-ends. Erwin has presented at different conferences like Javapolis, OWASP EU Conference, Eurostar and Infosecurity. More at www.zionsecurity.com\/blog and @ZIONSECURITY<\/p>\n",
+							"photo": {
+								"filename": "erwin_geirnaert.jpg"
+							},
+							"website": "http:\/\/www.zionsecurity.com"
+						}
+					],
+					"soldout": false
+				},
+				"track2": {
+					"o_key": "estelle-debugging-mobile-apps",
+					"day": "saturday",
+					"time": "13:30",
+					"time_end": "14:15",
+					"title": "E108: Debugging Mobile Web Apps",
+					"short_title": null,
+					"description": "<p>\n\tThe mobile space is varied, and hard to debug, but it is debuggable. In this session we&#39;ll look at various debuggers in the mobile space. We&#39;ll learn how you can debug browsers like mobile chrome, iOS, Android, and BlackBerry. We&#39;ll also learn what to debug to improve mobile performance.<\/p>\n",
+					"talk_type": "regular",
+					"talk_level": "beginner",
+					"talk_orientation": "overview",
+					"track": {
+						"name": "track2",
+						"room": null,
+						"sort": 2
+					},
+					"speakers": [{
+							"name": "Estelle Weyl",
+							"bio": "<p>\n\tEstelle Weyl is a author, trainer and freelancer. She has consulted for Kodakgallery, SurveyMonkey, Yahoo!, Apple, and many others. Estelle provides tutorials and detailed grids for CSS3 and HTML5 browser support in her blog. She is the author of Mobile HTML5 (O&#39;Reilly, 2013), HTML5: The Definitive Guide (O&#39;Reilly, 2014) and HTML5 and CSS3 for the Real World (Sitepoint, May 2011). While not coding, she works in construction, de-hippifying her 1960&#39;s throwback abode.<\/p>\n",
+							"photo": {
+								"filename": "estelle_weyl_1.jpg"
+							},
+							"website": "http:\/\/standardista.com"
+						}
+					],
+					"soldout": false
+				}
+			},
+			"14:30": {
+				"track2": {
+					"o_key": "scott-html5-websockets",
+					"day": "saturday",
+					"time": "14:30",
+					"time_end": "15:15",
+					"title": "E108: HTML5 websockets",
+					"short_title": null,
+					"description": "<p>\n\tThis session will introduce WebSockets by exploring a few practical applications. Afterward, we will dig into the JavaScript API before concluding with a look at the WebSocket communication protocol.<\/p>\n",
+					"talk_type": "regular",
+					"talk_level": "intermediate",
+					"talk_orientation": "indepth",
+					"track": {
+						"name": "track2",
+						"room": null,
+						"sort": 2
+					},
+					"speakers": [{
+							"name": "Scott Mattocks",
+							"bio": "<p>\n\tScott Mattocks is the Director of Development at GSN Digital. He leads a team of highly skilled developers, driving growth and scale of GSN&#39;s on-line games platforms. Scott is the author of Pro PHP-GTK and WebSockets: An introduction to real-time communications for the Web. Scott lives in Massachusetts with his wife and four kids.<\/p>\n",
+							"photo": {
+								"filename": "scott_mattocks_photo.jpg"
+							},
+							"website": "http:\/\/crisscott.com"
+						}
+					],
+					"soldout": false
+				},
+				"track1": {
+					"o_key": "sarah-video-for-the-mobile-web",
+					"day": "saturday",
+					"time": "14:30",
+					"time_end": "15:15",
+					"title": "E103: Video for the Mobile Web",
+					"short_title": null,
+					"description": "<p>\n\tVideo has been a poor step-child on mobile, where all the phones list video as a checkmark feature, but development is challenged by limited implementations of emerging standards and sparse documentations. However, the ubiquity of webkit-based browsers and maturing technology has led to relatively easy implementations across iOS and Android. Sarah Allen will talk about her experience with Mightyverse, briefly reviewing early implementation in Flash video and Rhomobile applications across 4 browsers, then dive into more detail about the transition last year to HTML5 with video.js. She will provide practical tips about encoding and embed options, along with an overview of browser and framework capabilities.<\/p>\n",
+					"talk_type": "regular",
+					"talk_level": "intermediate",
+					"talk_orientation": "indepth",
+					"track": {
+						"name": "track1",
+						"room": "",
+						"sort": 1
+					},
+					"speakers": [{
+							"name": "Sarah Allen",
+							"bio": "<p>\n\tSarah Allen is a serial innovator with a history of developing leading-edge products, such as After Effects, Shockwave, Flash video, and OpenLaszlo. She has a habit of recognizing great and timely ideas, finding talented teams, and creating compelling software. She has led small and large teams and confidently turns vision into reality.<\/p>\n",
+							"photo": {
+								"filename": "sarah_allen.jpg"
+							},
+							"website": "http:\/\/www.mightyverse.com\/"
+						}
+					],
+					"soldout": false
+				}
+			},
+			"15:45": {
+				"default": {
+					"o_key": "saturday-keynote-kevlin",
+					"day": "saturday",
+					"time": "15:45",
+					"time_end": "16:45",
+					"title": "Forum: Worse Is Better, for Better or for Worse",
+					"short_title": null,
+					"description": "<p>\n\tOver two decades ago, Richard P Gabriel proposed the idea of &quot;Worse&nbsp;Is&nbsp;Better&quot; to explain why some things that are designed to be pure and perfect are eclipsed by solutions that are seemingly compromised and imperfect. This is not simply the observation that things should be&nbsp;better&nbsp;but are not, or that flawed and ill-considered solutions are superior to those created with intention, but that many solutions that are narrow and incomplete work out&nbsp;better&nbsp;than the solutions conceived of as being comprehensive and complete.<\/p>\n<p>\n\tWhether it is programming languages, operating systems or development practices, we find many examples of this in software development, some&nbsp;more&nbsp;provocative and surprising than others. In this talk we revisit the original premise and question, and look at examples that can still teach us something surprising and new.<\/p>\n",
+					"talk_type": "keynote",
+					"talk_level": null,
+					"talk_orientation": null,
+					"track": {
+						"name": null,
+						"room": null,
+						"sort": null
+					},
+					"speakers": [{
+							"name": "Kevlin Henney",
+							"bio": "<p>\n\tKevlin is an independent consultant, speaker, writer and trainer. His development interests are in patterns, programming, practice and process. He has been a columnist for various magazines and web sites and is co-author of&nbsp;<em>A Pattern Language for Distributed Computing<\/em>&nbsp;and&nbsp;<em>On Patterns and Pattern Languages<\/em>, two volumes in the<em>Pattern-Oriented Software Architecture<\/em>&nbsp;series. He is also editor of the&nbsp;<em>97 Things Every Programmer Should Know<\/em>&nbsp;site and book.<\/p>\n",
+							"photo": {
+								"filename": "kevlin_henney.jpg"
+							},
+							"website": null
+						}
+					],
+					"soldout": false
+				}
+			}
 		},
-		"desc": "",
-		"tags": "tutorial",
-		"url" : "http://www.mobileconference.nl/tutorials#jan-sergi-developing-for-firefox-os"
+		"thursday": {
+			"09:30": {
+				"track3": {
+					"o_key": "lee-sencha-touch-workshop",
+					"day": "thursday",
+					"time": "09:30",
+					"time_end": "12:45",
+					"title": "G108: Sencha Touch workshop",
+					"short_title": null,
+					"description": "<p>\n\tWith Sencha&#39;s complete workflow you can create awesome multi-platform touch applications that outshine the web or appstore in just a flash.<\/p>\n<p>\n\tIn this workshop you will build the -Do I Need The Umbrella-\u009d utility app. This session will cover the following topics:<br \/>\n\t- Scaffolding a Sencha Touch app with Sencha Cmd.<br \/>\n\t- Working with Sencha MVC.<br \/>\n\t- Handling simple forms.<br \/>\n\t- Retrieving external live data.<br \/>\n\t- Making it look good with Sass &amp; Compass.<br \/>\n\t- Building the app for production.<\/p>\n<p>\n\tTutorial requirements:<br \/>\n\t&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A laptop<br \/>\n\t&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Install a modern browser (for example Google Chrome)<br \/>\n\t&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Install an IDE or Text editor of choice<br \/>\n\t&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Install a local webserver (for example XAMPP <a href=\"http:\/\/www.apachefriends.org\/en\/xampp.html\">http:\/\/www.apachefriends.org\/en\/xampp.html<\/a> )<br \/>\n\t&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Install the latest Sencha Touch&nbsp; (<a href=\"http:\/\/www.sencha.com\/products\/touch\/\">http:\/\/www.sencha.com\/products\/touch\/<\/a>)<br \/>\n\t&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Install the latest Sencha Cmd (<a href=\"http:\/\/www.sencha.com\/products\/sencha-cmd\/download\">http:\/\/www.sencha.com\/products\/sencha-cmd\/download<\/a>)<\/p>\n",
+					"talk_type": "tutorial 3h",
+					"talk_level": "beginner",
+					"talk_orientation": "handson",
+					"track": {
+						"name": "track3",
+						"room": null,
+						"sort": 3
+					},
+					"speakers": [{
+							"name": "Lee Boonstra",
+							"bio": "<p>\n\tLee is working for Sencha Inc; Sencha equips developers with frameworks, tools and services to help them build awesome applications using HTML5 and JavaScript. As a technical trainer she teaches Sencha Touch &amp; Ext JS to engineers from all over Europe. Lee has been developing sites and applications for the web since 2003. Before Sencha she worked as a lead (front)-end developer. Currently Lee is writing a cookbook for O&#39;Reilly about Sencha Touch.<\/p>\n",
+							"photo": {
+								"filename": "lee_boonstra.jpg"
+							},
+							"website": "http:\/\/www.ladysign-apps.com"
+						}
+					],
+					"soldout": false
+				},
+				"track2": {
+					"o_key": "jasper-jquery-mobile",
+					"day": "thursday",
+					"time": "09:30",
+					"time_end": "12:45",
+					"title": "G107: jQuery Mobile",
+					"short_title": null,
+					"description": "<p>\n\tIn this tutorial we are going to build a responsive web site with jQuery Mobile. We will be using many of the framework features like AJAX navigation and page transitions, popular widgets such as panels and form elements, custom events, the theming system, and much more. You will learn about configuring defaults, dynamically injecting content and how to customize things to create a one-of-a-kind app with this widely used framework.<\/p>\n<p>\n\tTutorial requirements:<br \/>\n\t&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A laptop is a minimum requirement<\/p>\n",
+					"talk_type": "tutorial 3h",
+					"talk_level": "beginner",
+					"talk_orientation": "overview",
+					"track": {
+						"name": "track2",
+						"room": null,
+						"sort": 2
+					},
+					"speakers": [{
+							"name": "Jasper de Groot",
+							"bio": "<p>\n\tI am a 36 year old self-employed web developer from Amsterdam and member of the jQuery Mobile development team. I work almost fulltime on the jQuery Mobile project.My Linkedin profile: http:\/\/www.linkedin.com\/in\/jasperdegroot&nbsp;<\/p>\n",
+							"photo": {
+								"filename": "jasper_de_groot.jpg"
+							},
+							"website": "https:\/\/github.com\/uGoMobi"
+						}
+					],
+					"soldout": false
+				},
+				"track4": {
+					"o_key": "jason-titanium-appcelerator",
+					"day": "thursday",
+					"time": "09:30",
+					"time_end": "17:00",
+					"title": "G110: Titanium Tutorial",
+					"short_title": null,
+					"description": "<p>\n\t-100% native apps using JavaScript.<br \/>\n\tIn this workshop we&#39;ll go through an introduction to the Titanium platform, how it works, what makes it tick and the difference between it and other platforms.<\/p>\n<p>\n\tWe&#39;ll talk about app structure, cross-platform tips and advice, best practice and common mistakes. We&#39;ll write a sample app, show how you can build reusable code based on CommonJS and set you up for the next step in Titanium development, the Alloy MVC framework.<\/p>\n<p>\n\tAnyone with basic JavaScript experience will be able to go from zero-to-app in this workshop.<\/p>\n<p>\n\tTitanium is a unique platform that allows you to use your JavaScript skills to built 100% native apps. No hybrid apps known for their sluggish HTML interfaces, but actual native UI&rsquo;s on iOS and Android. BlackBerry 10, Windows 8 and Tizen follow this summer.<\/p>\n<p>\n\tTutorial requirements:<br \/>\n\t&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A laptop (ideally a Macbook)<br \/>\n\t&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Install Titanium Studio and the 3.x SDK<br \/>\n\t&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Install the latest Xcode version<br \/>\n\t&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Install the latest Android SDK<\/p>\n",
+					"talk_type": "tutorial 6h",
+					"talk_level": "intermediate",
+					"talk_orientation": "handson",
+					"track": {
+						"name": "track4",
+						"room": null,
+						"sort": 4
+					},
+					"speakers": [{
+							"name": "Jason Kneen",
+							"bio": "<p>\n\tJason Kneen has been coding since&nbsp;the&nbsp;early 80s when he&nbsp;first&nbsp;got his hands on a Commodore VIC-20 and wrote his first &quot;Hello World&quot; program. In the 1990s he was a&nbsp;successful&nbsp;author of best-selling Psion Series 5 applications like&nbsp;&quot;Backlite+&quot; and &quot;Extrabars&quot; and also built e-commerce platforms on WAP and Windows Mobile.<\/p>\n<p>\n\tThese days he develops web apps with ASP \/ .NET and native mobile apps with Appcelerator&#39;s Titanium platform.<br \/>\n\tWhen he&#39;s not getting his hands dirty coding, he works with companies around the world as a development lead,&nbsp;architect&nbsp;and mentor -&nbsp;supporting and assisting their own development teams using Titanium. He&#39;s an advocate and&nbsp;supporter&nbsp;of the Titanium Platform, a TCAD Certified Developer, and a community &quot;Titan&quot;.&nbsp;<\/p>\n<p>\n\tJason is married, has three amazing children, and lives in the&nbsp;beautiful&nbsp;UK&nbsp;Countryside.&nbsp;He tweets as @jasonkneen and @bouncingfish.<\/p>\n",
+							"photo": {
+								"filename": "jason_kneen2.jpg"
+							},
+							"website": "http:\/\/www.bouncingfish.com"
+						}
+					],
+					"soldout": false
+				},
+				"track1": {
+					"o_key": "jan-sergi-developing-for-firefox-os",
+					"day": "thursday",
+					"time": "09:30",
+					"time_end": "12:45",
+					"title": "G102: Developing for Firefox OS",
+					"short_title": null,
+					"description": "<p>\n\tWith Firefox OS soon to be released to the public, you can be one of the first to get your apps on this platform. During this tutorial Jan and Sergi will present this new mobile operating system based on HTML, CSS and Javascript, and they will show and help you to get your mobile web applications ready to release.<\/p>\n",
+					"talk_type": "tutorial 3h",
+					"talk_level": "beginner",
+					"talk_orientation": "handson",
+					"track": {
+						"name": "track1",
+						"room": "",
+						"sort": 1
+					},
+					"speakers": [{
+							"name": "Sergi Mansilla",
+							"bio": "<p>\n\tSergi works at Telenor Comoyo on Firefox OS and regularly gives talks about it. Before that, he worked at Cloud9 IDE making an online IDE entirely in Node.js and JavaScript, and before that he lead the team that implemented the webkit framework that run the UIs in modern TomTom devices. He lives in Amsterdam, where&nbsp;he organizes the successful AmsterdamJS meetup and enjoys the wonderful Dutch weather.<\/p>\n",
+							"photo": {
+								"filename": "sergi_mansilla.jpeg"
+							},
+							"website": null
+						}, {
+							"name": "Jan Jongboom",
+							"bio": "<p>\n\tJan Jongboom got in a real life fight when someone declared javascript &#39;just some scripting language&#39;. &nbsp;During the day he channels his javascript love as a member of the Firefox OS core team at Telenor Comoyo, making bad jokes about VBScript and dreaming of happy hour. The only native Brit in his previous company described him in one word: &#39;cheeky&#39;. You can see him live on stage regularly, with talks about javascript, Firefox OS and mobile development.<\/p>\n",
+							"photo": {
+								"filename": "jan_jongboom.jpeg"
+							},
+							"website": null
+						}
+					],
+					"soldout": false
+				}
+			},
+			"13:45": {
+				"track3": {
+					"o_key": "estelle-mobile-css3",
+					"day": "thursday",
+					"time": "13:45",
+					"time_end": "17:00",
+					"title": "G108: Mobile CSS3",
+					"short_title": null,
+					"description": "<p>\n\tWhen developing in the mobile space, we are no longer restricted by older versions of Internet Explorer and their lack of support for even the most basic features of CSS. However, the mobile space does provide us with new constraints. Mobile does not just mean tiny devices. We now have to consider the constraints of limited memory, limited bandwidth, limited battery power and increased latency. In addition, we have the issue of varying, limited screen sizes and varied resolutions. CSS can help us with all of these.<\/p>\n<p>\n\tIn this workshop we&#39;ll learn which features to avoid (and why), and deep dive into newer features that should be staples of your mobile web development tool box. You&#39;ll learn which CSS3 features to use and which ones to avoid, with more in-depth coverage of the features that are a must in the mobile space. Of course we&#39;ll cover features that you know you need to know, like using media queries for different screen sizes, resolutions and browser capabilities, but we&#39;ll also cover issues that you may never have considered, such as tricks for bandwidth and memory management, features (and pitfalls to avoid) to ensure smooth animations, and CSS basics like selectors, gradients, transforms and animations that should be in every developers bag of tricks.<\/p>\n",
+					"talk_type": "tutorial 3h",
+					"talk_level": "intermediate",
+					"talk_orientation": "handson",
+					"track": {
+						"name": "track3",
+						"room": null,
+						"sort": 3
+					},
+					"speakers": [{
+							"name": "Estelle Weyl",
+							"bio": "<p>\n\tEstelle Weyl is a author, trainer and freelancer. She has consulted for Kodakgallery, SurveyMonkey, Yahoo!, Apple, and many others. Estelle provides tutorials and detailed grids for CSS3 and HTML5 browser support in her blog. She is the author of Mobile HTML5 (O&#39;Reilly, 2013), HTML5: The Definitive Guide (O&#39;Reilly, 2014) and HTML5 and CSS3 for the Real World (Sitepoint, May 2011). While not coding, she works in construction, de-hippifying her 1960&#39;s throwback abode.<\/p>\n",
+							"photo": {
+								"filename": "estelle_weyl_1.jpg"
+							},
+							"website": "http:\/\/standardista.com"
+						}
+					],
+					"soldout": false
+				},
+				"track1": {
+					"o_key": "parashuram-get-off-my-internets-building-offline-web-applications-tutorial",
+					"day": "thursday",
+					"time": "13:45",
+					"time_end": "17:00",
+					"title": "G107: Get Off my Internets - building offline web applications ",
+					"short_title": null,
+					"description": "<p>\n\tThe use of mobile devices to access web applications is greatly increasing and web developers are spending more time ensuring that their application looks better on this additional form factor. However, it is not sufficient to make the websites look good, when their functionality is compromised due to flaky internet connectivity. Offline support for applications enhances the experience significantly but developers are confused by the multiple options (IndexedDB, WebSql, localStorage etc.) and browser support matrix.<\/p>\n<p>\n\tThis talk discusses the various options, and tries to help developers with libraries and code to make their webapp get off the internet. It covers libraries like Jquery IndexedDB, PouchDB, db.js and the IndexedDB shim as ways to use offline support for almost all browsers. To the folks who are still not convinced, this talk will be based on star wars, so come in to hear the great saga from a world far far away .... :)<\/p>\n<p>\n\tTutorial requirements:<br \/>\n\t&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A Laptop<br \/>\n\t&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Install a modern web browser<br \/>\n\t&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Install an IDE or Text editor of choice<br \/>\n\t&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Preferably have NodeJS installed<\/p>\n",
+					"talk_type": "tutorial 3h",
+					"talk_level": "intermediate",
+					"talk_orientation": "indepth",
+					"track": {
+						"name": "track1",
+						"room": "",
+						"sort": 1
+					},
+					"speakers": [{
+							"name": "Parashuram Narasimhan",
+							"bio": "<p>\n\tParashuram is a programmer and likes to spend his time writing code. He has worked on a number of projects and also blogs about the interesting things he comes across. He writes a lot of Javascript with HTML and CSS in addition to Java and Python for the backend.&nbsp;<\/p>\n",
+							"photo": {
+								"filename": "parashuram.jpg"
+							},
+							"website": "http:\/\/nparashuram.com"
+						}
+					],
+					"soldout": false
+				}
+			}
+		}
 	},
-	{
-		"slug" : "G108",
-		"title": "Sencha Touch workshop",
-		"speaker": "Lee Boonstra",
-		"time": {
-			"start": 1370503800000,
-			"end": 1370515500000
-		},
-		"desc": "",
-		"tags": "tutorial",
-		"url" : "http://www.mobileconference.nl/tutorials#lee-sencha-touch-workshop"
-	},
-	{
-		"slug" : "G110",
-		"title": "Titanium Tutorial - Part 1",
-		"speaker": "Jason Kneen",
-		"time": {
-			"start": 1370503800000,
-			"end": 1370515500000
-		},
-		"desc": "",
-		"tags": "tutorial",
-		"http://www.mobileconference.nl/tutorials#jason-titanium-appcelerator"
-	},
-]
+	"trackorder": ["default", "track1", "track2", "track3", "track4"]
+}
