@@ -34,5 +34,5 @@ $(document).on('displayData', function() {
 });
 
 function showSession(s){
-	return s.title
+	return s.day + " " + s.time + " - " + s.title;
 }
