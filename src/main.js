@@ -2,10 +2,12 @@
 
 $(document).ready(function() {
 	$(document).trigger('displayData');
-	$.getJSON('../data1/sessions.json').done(function(data) {
-		writeData(data, function(){
-			// TODO: Write better logic to check if the data has changed
-			$(document).trigger('displayData');
+	$.getJSON('../data/sessions.json').done(function(data) {
+		// TODO: Write better logic to check if the data has changed
+		$.indexedDB('dmc').objectStore('sessions').clear().then(function(){
+			writeData(data, function() {
+				$(document).trigger('displayData');
+			});
 		});
 	});
 });
@@ -45,5 +47,9 @@ $(document).on('displayData', function() {
 });
 
 function showSession(s) {
-	return s.day + " " + s.time + " - " + s.title;
+	try {
+		return s.day + " " + s.time + " - " + s.title;
+	} catch (e) {
+		console.log(s);
+	}
 }
