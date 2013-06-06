@@ -39,7 +39,7 @@ function writeData(data, callback) {
 
 
 $(document).on('displayData', function() {
-	var ul = $('<ul>');
+	var ul = $('<ul class="talks">');
 	$.indexedDB('dmc').objectStore('sessions').each(function(data) {
 		$('<li>').html(showSession(data.value)).appendTo(ul);
 	});

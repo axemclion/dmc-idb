@@ -1,0 +1,11 @@
+ul.talks li {
+  list-style-type: none;
+  padding: 5px;
+  margin: 5px;
+  background: #e8e8e8;
+  border-radius: 5px;
+}
+
+ul.talks li:hover {
+  background: #a8a37a;
+}
