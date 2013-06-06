@@ -8,4 +8,5 @@ ul.talks li {
 
 ul.talks li:hover {
   background: #a8a37a;
+  border: 2px solid #333;
 }
