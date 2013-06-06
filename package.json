@@ -1,0 +1,24 @@
+{
+  "readmeFilename": "README.md",
+  "name": "dmc-idb",
+  "description": "dmc-idb",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/axemclion/dmc-idb.git"
+  },
+  "keywords": [
+    "Dutch Mobile Conference",
+    "dmc"
+  ],
+  "author": "",
+  "devDependencies": {
+    "grunt-contrib-clean": "~0.4.1",
+    "grunt": "~0.4.1",
+    "grunt-contrib-connect": "~0.3.0",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-watch": "~0.4.4"
+  }
+}

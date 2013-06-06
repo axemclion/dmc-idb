@@ -1,0 +1,50 @@
+[
+	{
+		"slug" : "G107",
+		"title": "jQuery Mobile",
+		"speaker": "Jasper de Groot",
+		"time": {
+			"start": 1370503800000,
+			"end": 1370515500000
+		},
+		"desc": "",
+		"tags": "tutorial",
+		"url" : "http://www.mobileconference.nl/tutorials#jasper-jquery-mobile"
+	},
+	{
+		"slug" : "G102",
+		"title": "Developing for Firefox OS ",
+		"speaker": "Jasper de Groot",
+		"time": {
+			"start": 1370503800000,
+			"end": 1370515500000
+		},
+		"desc": "",
+		"tags": "tutorial",
+		"url" : "http://www.mobileconference.nl/tutorials#jan-sergi-developing-for-firefox-os"
+	},
+	{
+		"slug" : "G108",
+		"title": "Sencha Touch workshop",
+		"speaker": "Lee Boonstra",
+		"time": {
+			"start": 1370503800000,
+			"end": 1370515500000
+		},
+		"desc": "",
+		"tags": "tutorial",
+		"url" : "http://www.mobileconference.nl/tutorials#lee-sencha-touch-workshop"
+	},
+	{
+		"slug" : "G110",
+		"title": "Titanium Tutorial - Part 1",
+		"speaker": "Jason Kneen",
+		"time": {
+			"start": 1370503800000,
+			"end": 1370515500000
+		},
+		"desc": "",
+		"tags": "tutorial",
+		"http://www.mobileconference.nl/tutorials#jason-titanium-appcelerator"
+	},
+]
