@@ -55,7 +55,7 @@ function showSession(s) {
             }
         }
 
-		return s.day + " " + s.time + " - <strong>" + s.title + "</strong><br>" + speakers;
+		return "<span class=\"label label-info\">" + s.day + " " + s.time + "</span> - <strong>" + s.title + "</strong><br>" + speakers;
 	} catch (e) {
 		console.log(s);
 	}
