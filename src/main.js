@@ -4,11 +4,11 @@ $(document).ready(function() {
 	$(document).trigger('displayData');
 	$.getJSON('../data/sessions.json').done(function(data) {
 		// TODO: Write better logic to check if the data has changed
-		$.indexedDB('dmc').objectStore('sessions').clear().then(function(){
+		//$.indexedDB('dmc').objectStore('sessions').clear().then(function(){
 			writeData(data, function() {
 				$(document).trigger('displayData');
 			});
-		});
+		//});
 	});
 });
 
